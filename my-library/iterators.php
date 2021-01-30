@@ -8,8 +8,19 @@ for ($i=0; $i<$length; $i++){
 }
 
 
+foreach ( $numbers as $number) {
+    echo "<br>a ve si se puede: $number";
+}
 
+$i=0;
+while ($i<7){
+    echo "<br>iteración con while número: $i";
+    $i++;
+}
 
+$word = "palabrita der niño jesu";
 
+echo "<br>$word";
+echo strlen($word);
 
 ?>
