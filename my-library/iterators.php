@@ -23,4 +23,11 @@ $word = "palabrita der niño jesu";
 echo "<br>$word";
 echo strlen($word);
 
+$i=0;
+do {
+    echo "<br>iteración con do-while número: $i";
+    $i++;
+}
+while ($i<7)
+
 ?>
